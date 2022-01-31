@@ -1,0 +1,82 @@
+*{
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Montserrat', sans-serif;
+   background-color: rgba(126, 125, 125, 0.247);
+   overflow-x:hidden; 
+}
+.container{
+   width: 1240px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   position: relative;   
+}
+.information{
+   margin: 15px 0 0 100px;
+   & > div:last-child{
+      margin-bottom: 20px;
+      a{
+         color: rgb(0, 0, 0);
+         &:hover{
+            opacity: 0.5;
+         }
+      }
+   }
+}
+p{
+   color: rgb(0, 0, 0);
+   padding-bottom: 5px;
+   font-size: 32px;
+   font-family: 'Marck Script', cursive;
+   margin-top: 20px;
+}
+.line{
+   border-bottom: 2px solid rgb(0, 0, 0);
+   width: 70px;
+   margin-bottom: 20px;
+}
+.wrapper{
+   width: 700px;
+   height: 900px;
+}
+.photo{
+   overflow: hidden;
+   img{
+      height: 100%;
+      width: auto;
+   }
+}
+.about{
+   font-size: 18px;
+   margin-bottom: 10px;
+   span{
+      font-size: 16px;
+   }
+}
+.why{
+   width: 600px;
+   line-height: 24px;
+}
+.education{
+   line-height: 24px;
+}
+.contact{
+   margin-bottom: 10px;
+}
+ul{
+   width: 600px;
+   li{
+      margin-bottom: 10px;
+   }
+}
+.branch{
+   position: absolute;
+   top: 40%;
+   transform: rotate(-30deg);
+   left: 90%;
+   opacity: 20%;
+   position: fixed;
+}
